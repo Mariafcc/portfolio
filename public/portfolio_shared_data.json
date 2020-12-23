@@ -1,0 +1,59 @@
+{
+    "basic_info": {
+      "name": "Maria Cruz",
+      "title": "Web Developer",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Mariafcc",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "Linked-In",
+          "url": "https://www.linkedin.com/in/mariafernandacruz/",
+          "class": "fab fa-linkedin"
+        }
+      ]
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original"
+          
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain"
+        },
+        {
+          "name": "Nodejs",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Sequelize",
+          "class": "devicon-sequelize-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "Jquery",
+          "class": "devicon-jquery-plain"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain"
+        }
+      ]
+    }
+  }
