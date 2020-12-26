@@ -13,7 +13,7 @@
     {
       "title": "SkinDex",
       "description": "Will allow users to take quiz that shows them a skincare routine base on their answers. This is my most extensive project, i used a lot of technologies and created the API.",
-      "images": "images/skindex.png",
+      "images": ["images/skindex.png"],
       "url": "http://skindex.herokuapp.com/",
       "technologies": [
         {
@@ -47,8 +47,7 @@
       "title": "FitUp",
       "description": "FitUp can be used to design your next workout.User is given a choice of indoor or outdoor workout and given options to add workouts and save them.",
       "images": [
-        "images/fitUp.png",
-        "images/portfolio/photography/p2.jpg"
+        "images/fitUp.png"
       ],
       "url": "http://project-two-2020.herokuapp.com",
       "link": "https://github.com/Mariafcc/FitUp-1",
@@ -83,8 +82,7 @@
       "title": "Employee Directory",
       "description": "This application will allow employees to search the employee database. The database will give the employee images, name, phone number, email and date of birth. The search can be by name or the employer can click on the name to alphabetize it",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/teamDemo.png"
       ],
       "url": "https://mariafcc.github.io/sprint19/",
       "link":"https://github.com/Mariafcc/sprint19",
@@ -111,8 +109,7 @@
       "title": "Employee Tracker",
       "description": "Employee Tracker will allow the user to keep track of teams being managed. It will allow for easy change of employee such as employee department or manager. It will also allow you to add or remove an employee.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/emptracker.png"
       ],
       "link": "https://github.com/Mariafcc/sprint12homework",
       "url":"https://drive.google.com/file/d/1zsxKK7ofVBq26sy9gvWn3VTjz6l89c4N/view?usp=sharing",
@@ -136,35 +133,10 @@
       ]
     },
     {
-      "title": "Budget",
-      "description": "User can utilise budget to input incoming and outgoing changes to their budget. Budget also works while offline.",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://budget-app-04.herokuapp.com/",
-      "link":"https://github.com/Mariafcc/sprint18",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        }
-      ]
-    },
-    {
       "title": "Notes",
       "description": "User is able to input notes and delete them.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/note.png"
       ],
       "url": "https://note-mc.herokuapp.com/notes",
       "link":" https://github.com/Mariafcc/sprint11homework",
@@ -186,7 +158,32 @@
           "name": "Express"
         }
       ]
+    },
+    {
+      "title": "Budget",
+      "description": "User can utilise budget to input incoming and outgoing changes to their budget. Budget also works while offline.",
+      "images": [
+        "images/budget.png"
+        
+      ],
+      "url": "https://budget-app-04.herokuapp.com/",
+      "link":"https://github.com/Mariafcc/sprint18",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
     }
+
   ],
   "experience": [
     {

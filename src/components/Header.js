@@ -7,6 +7,7 @@ class Header extends Component {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       var title = this.props.sharedData.title.toUpperCase();
+      var email = this.props.sharedData.email;
     }
     return (
       <header id="home" style={{ height: "400px", display: 'block' }}>
@@ -19,6 +20,7 @@ class Header extends Component {
                 <Typical steps={[name]} wrapper="p" />
               </h1>
               <Typical className="title-styles" steps={[title]} wrapper="p" />
+              <Typical className="title-styles" steps={[email]} wrapper="p" />
             </div>
           </div>
         </div>

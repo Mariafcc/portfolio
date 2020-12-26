@@ -23,7 +23,7 @@ class Projects extends Component {
         return (
           
             <div
-              className="col-sm-12 col-md-6 col-lg-2"
+              className="col-sm-12 col-md-6 col-lg-4"
               key={projects.title}
               style={{ cursor: "pointer" }}
             >
