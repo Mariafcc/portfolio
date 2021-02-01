@@ -1,12 +1,11 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I'm Maria Fernanda Cruz. Dedicated professional full-stack web developer with expertise in MERN programming. Goal-oriented and individually motivated. Works well on teams and naturally takes initiative in order to create and provide potential employers and clients with web applications that meet optimal functionality and expertly polished design. Consistently invests time and energy into expanding programming skills and maintains level of curiosity and precision. ",
+    "description": "I'm Maria Fernanda Cruz. Dedicated professional full-stack web developer with expertise in MERN programming. Goal-oriented and individually motivated. Works well on teams and naturally takes initiative in order to create and provide potential employers and clients with web applications that meet optimal functionality and expertly polished design. Consistently investing time and energy into expanding programming skills, and maintains level of curiosity and precision. ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
+      "skills": "Skills"
     }
   },
   "projects": [
@@ -98,84 +97,6 @@
         {
           "class": "devicon-css3-plain",
           "name": "css"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        }
-      ]
-    },
-    {
-      "title": "Employee Tracker",
-      "description": "Employee Tracker will allow the user to keep track of teams being managed. It will allow for easy change of employee such as employee department or manager. It will also allow you to add or remove an employee.",
-      "images": [
-        "images/emptracker.png"
-      ],
-      "link": "https://github.com/Mariafcc/sprint12homework",
-      "url":"https://drive.google.com/file/d/1zsxKK7ofVBq26sy9gvWn3VTjz6l89c4N/view?usp=sharing",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
-        },
-        {
-          "class": "devicon-mysql-plain",
-          "name": "MySql"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        }
-      ]
-    },
-    {
-      "title": "Notes",
-      "description": "User is able to input notes and delete them.",
-      "images": [
-        "images/note.png"
-      ],
-      "url": "https://note-mc.herokuapp.com/notes",
-      "link":" https://github.com/Mariafcc/sprint11homework",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
-        },
-        {
-          "class": "devicon-mysql-plain",
-          "name": "MySql"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        }
-      ]
-    },
-    {
-      "title": "Budget",
-      "description": "User can utilise budget to input incoming and outgoing changes to their budget. Budget also works while offline.",
-      "images": [
-        "images/budget.png"
-        
-      ],
-      "url": "https://budget-app-04.herokuapp.com/",
-      "link":"https://github.com/Mariafcc/sprint18",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
         },
         {
           "class": "devicon-express-original",

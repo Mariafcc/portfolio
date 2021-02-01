@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { animations } from 'react-animation'
+import { animations } from 'react-animation';
+import Fade from "react-reveal/Fade";
 
 class Skills extends Component {
-  
+
   render() {
     var style = {
       animation: animations.slide
@@ -38,7 +39,9 @@ class Skills extends Component {
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <ul className="list-inline mx-auto skill-icon" style={style}>{skills}</ul>
+            <Fade left>
+              <ul className="list-inline mx-auto skill-icon" style={style}>{skills}</ul>
+            </Fade>
           </div>
         </div>
       </section>

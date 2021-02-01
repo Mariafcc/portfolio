@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class About extends Component {
   render() {
     if (this.props.resumeBasicInfo) {
