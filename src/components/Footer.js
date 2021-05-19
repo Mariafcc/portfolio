@@ -17,6 +17,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
+          <p style={{fontSize:" 25px"}}> Get in contact with me!</p>
           <div className="social-links">{networks}</div>
 
         </div>
