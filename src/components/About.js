@@ -21,8 +21,8 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="300px"
-                    src={"https://media-exp1.licdn.com/dms/image/C4E03AQHdDnDfV4ibjg/profile-displayphoto-shrink_400_400/0/1594679182857?e=1614211200&v=beta&t=8-L8DPAZwBpKQo7JtU46juIUKY6uwYc-qCkvwytmiFA"}
-                    alt="Avatar placeholder"
+                    src={"https://avatars.githubusercontent.com/u/66399861?v=4"}
+                    alt="Portfolio Image"
                   />
                 </span>
               </div>

@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
+import AwesomeSlider from "react-awesome-slider";
+// import AwesomeSliderStyles from "../scss/light-slider.scss";
+// import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
-      const images = this.props.data.src;
-      var link = this.props.data.link;
+      const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
@@ -18,17 +20,35 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                    <elem className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
-                    </p>
+                    </elem>
                   </i>
                 </div>
               </span>
             </li>
           );
         });
-        
       }
+
+      if (this.props.data.images) {
+        var img = images.map((pic, i) => {
+          return (
+            <div key={i}>
+              
+                <div>
+                  <div>
+                    
+                      {pic.images}
+                    
+                  </div>
+                </div>
+              
+            </div>
+          );
+        });
+      }
+
     }
     return (
       <Modal
@@ -41,6 +61,9 @@ class ProjectDetailsModal extends Component {
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
+        <div>
+          {img}
+        </div>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
@@ -59,15 +82,15 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
               <a
-                  href={link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="devicon-github-original"
-                  style={{ marginLeft: "10px" , color:"black"}}
-                >
-                </a>
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="devicon-github-original"
+                style={{ marginLeft: "10px", color: "black" }}
+              >
+              </a>
             </h3>
-            <p className="modal-description">{description}</p>
+            <elem className="modal-description">{description}</elem>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

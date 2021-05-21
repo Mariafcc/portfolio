@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import skindex from "../images/skindex.png"
+import ux from "../images/uxui.png"
+import fit from "../images/fitUp.png"
 
 
 class Projects extends Component {
@@ -21,52 +24,124 @@ class Projects extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
-          
-            <div
-              className="col-sm-12 col-md-6 col-lg-4"
-              key={projects.title}
-              style={{ cursor: "pointer" }}
-            >
 
-              <span className="portfolio-item d-block">
-                <div className="foto" onClick={() => detailsModalShow(projects)}>
-                  <div>
-                    <img
-                      src={projects.images[0]}
-                      alt="projectImages"
-                      height="230"
-                      style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
-                    />
-                    <br />
-                    <p className="project-title-settings mt-3">
-                      {projects.title}
 
-                    </p>
-                  </div>
+          <div
+            className="col-sm-12 col-md-6 col-lg-4"
+            key={projects.title}
+            style={{ cursor: "pointer" }}
+          >
+
+            <span className="portfolio-item d-block">
+              <div className="foto" onClick={() => detailsModalShow(projects)}>
+                <div>
+                  <img
+                    src={projects.images[0]}
+                    alt="projectImages"
+                    height="230"
+                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
+                  />
+                  <br />
+                  <p className="project-title-settings mt-3">
+                    {projects.title}
+
+                  </p>
                 </div>
-              </span>
-            </div>
-         
+              </div>
+            </span>
+          </div>
+
         );
       });
     }
 
     return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+      <div id="portfolio">
+        <h1 style={{ textAlign: "center" }}>
+          Projects
+        </h1>
+        <section>
+          <div className="flex-container">
+            <div className="bxs container">
+              <p style={{ fontSize: "25px" }}>
+                |UX/UI|
+            </p>
+              <img className="image"
+                src={ux} alt="Logo" style={{
+                  display: " block",
+                  width: "100%",
+                  height: "300px"
+                }}>
+              </img>
+              <div class="middle">
+                <div class="text" style={{fontSize:"8px"}}>This design is meant for users that are interested in taking beach vacation but do not know where to go. With a study i have found that users mainly go to vacations based on family or friends recommendation. If a booking site adds a feature like this it will increase the time spent on site as well as the amount of items booked with the site.</div>
+              </div>
+
+              <a className="a" href={"https://www.figma.com/proto/xHETWAMtWNLrN3LdxcI6yI/Untitled?node-id=65%3A107&scaling=scale-down&page-id=6%3A4951"} >
+                Prototype
+              </a>
+              <div>
+              <a className="a" href={"https://www.figma.com/file/xHETWAMtWNLrN3LdxcI6yI/Untitled?node-id=6%3A4951"} >
+                Figma
+              </a>
+              </div>
+
+            </div>
+
+            <div className="bxs container">
+              <p style={{ fontSize: "25px" }}>
+                SkinDex
+            </p>
+              <img
+                className="image"
+                src={skindex} alt="Logo" style={{
+                  display: " block",
+                  width: "100%",
+                  height: "300px"
+                }}>
+              </img>
+              <div class="middle">
+                <div class="text" style={{fontSize:"10px"}}>Will allow users to take quiz that shows them a skincare routine base on their answers. This is my most extensive project, i used a lot of technologies and created the API.</div>
+              </div>
+              <a className="a" href={"https://skindex.herokuapp.com"} >
+                Application
+              </a>
+              <div>
+              <a className="a" href={"https://github.com/Mariafcc/skindex"} >
+                Github
+              </a>
+              </div>
+            </div>
+            <div className="bx container">
+              <p style={{ fontSize: "25px" }}>
+                FitUp
+            </p>
+              <img
+                className="image"
+                src={fit} alt="Logo" style={{
+                  display: " block",
+                  width: "100%",
+                  height: "300px"
+                }}>
+              </img>
+              <div class="middle">
+                <div class="text" style={{fontSize:"10px"}} >FitUp can be used to design your next workout.User is given a choice of indoor or outdoor workout and given options to add workouts and save them.</div>
+              </div>
+              <a className="a" href={"http:project-two-2020.herokuapp.com"} >
+                Application
+              </a>
+              <div>
+              <a className="a" href={"https://github.com/Mariafcc/FitUp-1"} >
+                Github
+              </a>
+              </div>
+            </div>
           </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
-        </div>
-      </section>
+
+
+
+        </section>
+      </div>
     );
   }
 }
