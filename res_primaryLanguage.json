@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I'm Maria Fernanda Cruz. Dedicated professional full-stack web developer with expertise in MERN programming. Goal-oriented and individually motivated. Works well on teams and naturally takes initiative in order to create and provide potential employers and clients with web applications that meet optimal functionality and expertly polished design. Consistently investing time and energy into expanding programming skills, and maintains level of curiosity and precision. ",
+    "description": "I'm a dedicated professional UI/UX designer and full-stack web developer with expertise in MERN programming. I'm Goal-oriented and individually motivated. I work well on teams and I naturally take initiative in order to create and provide potential employers and clients with web applications that meet optimal functionality and expertly polished design. I consistently invest time and energy into expanding programming skills and maintains level of curiosity and precision.  ",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -12,7 +12,10 @@
     {
       "title": "SkinDex",
       "description": "Will allow users to take quiz that shows them a skincare routine base on their answers. This is my most extensive project, i used a lot of technologies and created the API.",
-      "images": ["images/skindex.png"],
+      "images": [
+        {
+        "images":"images/skindex.jpg"}
+      ],
       "url": "http://skindex.herokuapp.com/",
       "technologies": [
         {
@@ -46,7 +49,8 @@
       "title": "FitUp",
       "description": "FitUp can be used to design your next workout.User is given a choice of indoor or outdoor workout and given options to add workouts and save them.",
       "images": [
-        "images/fitUp.png"
+        {
+        "images":"../images/fitUp.jpg"}
       ],
       "url": "http://project-two-2020.herokuapp.com",
       "link": "https://github.com/Mariafcc/FitUp-1",
@@ -78,29 +82,19 @@
       ]
     },
     {
-      "title": "Employee Directory",
-      "description": "This application will allow employees to search the employee database. The database will give the employee images, name, phone number, email and date of birth. The search can be by name or the employer can click on the name to alphabetize it",
+      "title": "UX/UI Beach Vacation",
+      "description": "This design is meant for users that are interested in taking beach vacation but do not know where to go. With a study i have found that users mainly go to vacations based on family or friends recommendation. If a booking site adds a feature like this it will increase the time spent on site as well as the amount of items booked with the site.",
       "images": [
-        "images/teamDemo.png"
+        {
+          "images":"../images/uxui.jpg"}
+        
       ],
       "url": "https://mariafcc.github.io/sprint19/",
       "link":"https://github.com/Mariafcc/sprint19",
       "technologies": [
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node.js"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "css"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
+          "class": "devicon-figma-plain",
+          "name": "Figma"
         }
       ]
     }

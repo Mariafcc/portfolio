@@ -19,6 +19,10 @@
     "skills": {
       "icons": [
         {
+          "name": "Figma",
+          "class": "devicon-figma-plain"
+        },
+        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain"
         },
